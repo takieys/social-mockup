@@ -1,0 +1,45 @@
+.header {
+  width: 850px;
+  height: 200px;
+  margin: auto;
+  background-color: plum;
+}
+
+body {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.list {
+  font-size: 18px;
+  position: absolute;
+  top: 250px;
+  left: 360px;
+}
+
+button {
+  position: relative;
+  left: 300px;
+  top: 200px;
+}
+
+.right-column {
+  position: absolute;
+  background-colo
+  width: 512px;
+  height:300px;
+  border: 10px solid plum;
+  top: 400px;
+  left 250px;
+}
+
+.left-column {
+  position: absolute;
+  width: 318px;
+  border: 10px solid plum;
+}
