@@ -57,18 +57,38 @@ button {
   background-color: lightblue;
   width: 512px;
   height: 300px;
-  border: 10px solid plum;
-  top: 200px;
-  left: 40px;
+  bottom: 160px;
   position: relative;
+  float: right;
 }
 
 .left {
-  width: 318px;
-  height: 300px;
-  border: 10px solid plum;
+  width: 328px;
+  height: 200px;
   background-color: lightblue;
-  top: 200px;
-  left: 440px;
+  top: 40px;
   position: relative;
+}
+
+.left2 {
+  z-index: 5;
+  position: relative;
+  border: 5px solid plum;
+  width: 200px;
+  height: 120px;
+  bottom: 120px;
+  left: 60px;
+}
+
+.right2 {
+  left: 410px;
+  bottom: 20px;
+  position: relative;
+  border: 5px solid plum;
+  background-color: grey;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
 }
