@@ -1,45 +1,74 @@
 .header {
   width: 850px;
-  height: 200px;
+  height: 250px;
   margin: auto;
   background-color: plum;
 }
 
 body {
-  font-size: 40px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-img {
-  height: 100px;
-  width: 100px;
+h1 {
+  font-size: 32px;
+  position: relative;
+  top: 20px;
+  left: 175px;
 }
 
-.list {
-  font-size: 18px;
-  position: absolute;
-  top: 250px;
-  left: 360px;
+img {
+  height: 110px;
+  width: 110px;
+  border: 10px solid lightblue;
+  position: relative;
+  top: 110px;
+  right: 40px;
+}
+
+ul.navigation {
+  font-size: 22px;
+  position: relative;
+  top: 40px;
+  left: 380px;
+  list-style-type: none;
+  color: cyan;
+}
+
+li {
+  display: inline;
+  background-color: grey;
+  border: 5px solid lightblue;
 }
 
 button {
   position: relative;
   left: 300px;
-  top: 200px;
+  top: 100px;
+  float: center;
 }
 
-.right-column {
-  position: absolute;
-  background-colo
+.columns {
+  margin: auto;
+  width: 850px;
+  position: relative;
+}
+
+.right {
+  background-color: lightblue;
   width: 512px;
-  height:300px;
+  height: 300px;
   border: 10px solid plum;
-  top: 400px;
-  left 250px;
+  top: 200px;
+  left: 40px;
+  position: relative;
 }
 
-.left-column {
-  position: absolute;
+.left {
   width: 318px;
+  height: 300px;
   border: 10px solid plum;
+  background-color: lightblue;
+  top: 200px;
+  left: 440px;
+  position: relative;
 }
